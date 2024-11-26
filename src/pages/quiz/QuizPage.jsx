@@ -42,7 +42,7 @@ function QuizPage() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-br from-purple-400 to-purple-100">
+    <div className="flex flex-col items-center justify-center h-screen bg-white">
       {/* Soru Numarası ve Metni */}
       <h2 className="text-xl font-bold mb-6 text-black">
         {currentQuestion + 1}/{questions.length} - {questions[currentQuestion].question}

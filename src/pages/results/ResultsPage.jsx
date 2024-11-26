@@ -7,7 +7,7 @@ function ResultsPage() {
   const { score, total } = location.state || { score: 0, total: 0 };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-br from-purple-400 to-purple-100">
+    <div className="flex flex-col items-center justify-center h-screen bg-white">
       <p className="text-2xl mb-6 text-black">
         Your Score: <span className="font-bold">{score}</span> / {total}
       </p>
